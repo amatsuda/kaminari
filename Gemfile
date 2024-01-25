@@ -29,6 +29,7 @@ gem 'i18n', RUBY_VERSION < '2.3' ? '< 1.5.2' : '>= 0'
 gem 'selenium-webdriver'
 
 gem 'bigdecimal'
+gem 'mutex_m'
 
 rails_version = ENV['RAILS_VERSION'] || '∞'
 

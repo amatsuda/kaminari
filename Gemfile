@@ -28,6 +28,8 @@ gem 'loofah', RUBY_VERSION < '2.5' ? '< 2.21.0' : '>= 0'
 gem 'i18n', RUBY_VERSION < '2.3' ? '< 1.5.2' : '>= 0'
 gem 'selenium-webdriver'
 
+gem 'bigdecimal'
+
 rails_version = ENV['RAILS_VERSION'] || '∞'
 
 platforms :ruby do
